@@ -92,7 +92,8 @@ https://github.com/ardacarofficial/links-website is open source project.
       <section id="main_section_container_1" class="flex_column_center">
         <!-- Menu Text Item -->
         <div class="main_text_item">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestiae nesciunt, exercitationem quaerat maxime non!</p>
+          <p>CTO | CELLAR INNOVATIVE DEVELOPERS<br>
+          CO FOUNDER | SKOLA TECH</p>
         </div>
         <!-- Menu Small Item -->
         <!-- <div class="main_small_button_list">
@@ -103,24 +104,36 @@ https://github.com/ardacarofficial/links-website is open source project.
             <button class="main_small_button_item">Portfolio</button>
           </a>
         </div> -->
-        <!-- Menu Small Item -->
+
+
+  <!-- Menu Small Item -->
+
+  
         <div class="main_small_button_list">
-          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-            <button class="main_small_button_item">Menu 1 Small Item</button>
+          <a class="main_small_a_item" href="https://wa.me/919074668290?text=Hey%!" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Connect me on Whatsapp</button>
           </a>
-          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
-            <button class="main_small_button_item">Menu 1 Small Item</button>
-          </a>
+          <!-- <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Download card ofline</button>
+          </a> -->
+          
         </div>
-        <!-- Menu Item -->
-        <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
+
+<!-- Menu Item -->
+
+        <!-- <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
           <button class="main_button_item">Menu 1 Item</button>
-        </a>
-        <!-- Menu Item -->
-        <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
+          <br> 
+        </a> -->
+        <input value='Print' type='button' onclick='handlePrint()' />
+
+<!-- Menu Item -->
+
+        <!-- <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
           <button class="main_button_item">Menu 1 Item</button>
-        </a>
+        </a> -->
       </section>
+
       <!-- Menu Container 1 Codes End -->
 
       <!-- Menu Container 2 Codes Start -->
@@ -196,11 +209,18 @@ https://github.com/ardacarofficial/links-website is open source project.
     <footer>
       <!-- Footer Codes Start -->
       <div class="footer_div_item flex_row_center">
-        <a class="footer_a_item" href="#link">Made with ❤️| freppe ✨</a>&nbsp;
+        <a class="footer_a_item" href="#link">Made with ❤️| Bengee ✨</a>&nbsp;
         <!-- <a class="footer_a_item" href="#link">Your Name</a>&nbsp;| Copyright Text -->
       </div>
     </footer>
       <!-- Footer Codes End -->
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+      const handlePrint = () => {
+         var actContents = document.body.innerHTML;
+         document.body.innerHTML = actContents;
+         window.print();
+      }
+   </script>
   </body>
 </html>
